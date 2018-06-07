@@ -9,6 +9,7 @@ body{
 	flex-flow: row wrap;
 
 	background-color: #fafcf9;
+	width: 1005px;
 }
 .Page{
 	margin: 20px;
@@ -98,4 +99,13 @@ body{
 	padding-right: 30px;
 
 	font-style: italic;
+}
+.music{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
 }

@@ -1,0 +1,101 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	flex-flow: row wrap;
+
+	background-color: #fafcf9;
+}
+.Page{
+	margin: 20px;
+}
+.header{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+}
+.header img{
+
+}
+.main{
+	width: 100%;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.main h1{
+	color: #b44f1e;
+	font-size: 70px;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.main .row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+
+}
+.stih1, .stih2 {
+	font-size: 35px;
+	color: #d4a752;
+	text-align: center;
+	font-weight: 900;
+	margin: 0;
+	-webkit-flex: 1px;
+	-moz-flex: 1px;
+	-ms-flex: 1px;
+	-o-flex: 1px;
+	flex: 1px;
+}
+.row2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+}
+.stih3{
+	font-size: 35px;
+	color: #d4a752;
+	text-align: center;
+	font-weight: 900;
+	margin: 0;
+}
+.des{
+	width: 100%;
+	-ms-text-align-last: right;
+	text-align-last: right;
+
+	font-size: 30px;
+	color: #b44f1e;
+	font-weight: 900;
+
+	padding-right: 30px;
+
+	font-style: italic;
+}
